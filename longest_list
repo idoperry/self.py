@@ -1,0 +1,7 @@
+def longest(mylist):
+    """this function gets list made of strings and returns the longest string"""
+    newlist=sorted(mylist,key=len,reverse=True)
+    return newlist[0]
+
+list1 = ["111", "234", "2000", "goru", "birthday", "09"]
+print(longest(list1))
